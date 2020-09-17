@@ -7,4 +7,4 @@ test:
 	gcc -g -Wall -fopenmp -o runTests util.c runAllTests.c -lm
 
 clean:
-	rm pi_redox pi_critical runTests
+	rm pi runTests
