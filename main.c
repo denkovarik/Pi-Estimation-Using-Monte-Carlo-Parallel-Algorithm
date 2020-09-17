@@ -143,7 +143,7 @@ double monteCarloReduction(long long int numThrows)
 * @param[in] numThrows - The number of simulated throws made at the board.
 * @param[in] threads   - The number of threads to run in parallel.
 *
-* @returns the estimation of quarter pi as a double.
+* @returns 0 if the program executed correctly.
 ******************************************************************************/
 int main(int argc, char **argv)
 {

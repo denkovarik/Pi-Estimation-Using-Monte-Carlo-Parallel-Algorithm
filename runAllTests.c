@@ -1,3 +1,17 @@
+/*-----------------------------------------------------------------------------
+ * File:    runAllTests.c
+ * 
+ * Purpose: Tests the helper functions used in the program
+ *
+ * Compile: gcc -g -Wall -fopenmp -o runTests util.c runAllTests.c -lm
+ *   
+ * Run:     ./runTests
+ *
+ *
+ * Input:   none
+ * Output:  results of running the tests
+ *
+ *---------------------------------------------------------------------------*/
 #include "util.h"
 
 
@@ -92,6 +106,14 @@ int checkCalcDis()
 }
 
 
+/**************************************************************************//**
+* @author Dennis Kovarik
+*
+* @par Description:
+* This is the main function for running the tests on the helper functions. 
+*
+* @returns 0 if program executed correctly.
+******************************************************************************/
 int main()
 {
     int allTestsPassed = 1;
