@@ -31,3 +31,6 @@ This program can be run with 0, 1, or 2 command line arguments passed into the p
 * ./pi
 * ./pi `<number of throws>`
 * ./pi `<number of throws>` `<threads>`
+
+## Credits
+Dennis Kovarik
