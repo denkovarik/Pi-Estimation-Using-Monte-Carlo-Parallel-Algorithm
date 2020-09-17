@@ -5,4 +5,6 @@ This program runs the Monte Carlo Algorithm to estimate a quarter pi. Suppose we
 
 π / 4 = darts inside cicle segment / total number of darts tossed
 
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
 This is a so called Monte Carlo process, as it uses randomness to solve a problem.
