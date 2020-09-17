@@ -1,10 +1,10 @@
 
 
 main:
-	gcc -g -Wall -fopenmp -o pi utilities.c quart_pi_estimation_parallel.c -lm
+	gcc -g -Wall -fopenmp -o pi util.c main.c -lm
 
 test:
-	gcc -g -Wall -fopenmp -o runTests utilities.c runAllTests.c -lm
+	gcc -g -Wall -fopenmp -o runTests util.c runAllTests.c -lm
 
 clean:
-	rm pi runTests
+	rm pi_redox pi_critical runTests
