@@ -3,7 +3,7 @@
  *
  * Author: Dennis Kovarik
  * Date: 9/19/2020
- * Class Assignment: CSC 410 Program 1
+ * Class Assignment: CSC 510 Program 1
  * 
  * Purpose: Parallel version of the Monte Carlo algorithm to estimate quarter 
  *          pi.
