@@ -29,5 +29,5 @@ Run the Following command in the terminal
 ## Usage
 This program can be run with 0, 1, or 2 command line arguments passed into the program. The first command line argument specifies the number of simulated throws to use to estimate quarter pi using the Monte Carlo Algorithm. The second command line argument specifies the number of threads to run in parallel.
 * ./pi
-* ./pi <number of throws>
-* ./pi <number of throws> <threads>
+* ./pi `<number of throws`>
+* ./pi `<number of throws`> <threads>
