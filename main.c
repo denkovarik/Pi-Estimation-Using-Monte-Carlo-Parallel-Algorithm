@@ -170,8 +170,6 @@ int main(int argc, char **argv)
     t1 = omp_get_wtime();
     tot_time_redox = t1 - t0;
 
-    sleep(1);
-
     // Run Monte Carlo Alogrithm using critcal section
     t0 = omp_get_wtime();
     quartPiEstimateCritical = monteCarloCritical(numThrows);
