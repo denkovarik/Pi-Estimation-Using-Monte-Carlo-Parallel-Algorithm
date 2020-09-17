@@ -62,7 +62,7 @@ double monteCarloCritical(long long int numThrows)
         long long int insideSegment = 0;
         unsigned int mySeedCrit = (unsigned int)omp_get_thread_num();
         srand(mySeedCrit);
-#       pragma omp for schedule(dynamic)
+#       pragma omp for schedule(static)
         for(long long int i = 0; i < numThrows; i++)
         {
             x = (double)rand_r(&mySeedCrit) / RAND_MAX;
@@ -110,7 +110,7 @@ double monteCarloReduction(long long int numThrows)
         mySeed = (unsigned int)omp_get_thread_num();
         srand(mySeed);
 
-#       pragma omp for schedule(dynamic) reduction(+: insideSegment)
+#       pragma omp for schedule(static) reduction(+: insideSegment)
         for(long long int i = 0; i < numThrows; i++)
         {
             x = (double)rand_r(&mySeed) / RAND_MAX;
