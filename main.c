@@ -21,8 +21,9 @@
  *          quarter pi actual
  *
  * Notes:
- * 1.  Uses
- * 2.  The second function forks and joins the threads only once.
+ * 1.  This program can be run with 0, 1 or 2 command line arguments
+ * 2.  The first command line argument specifies the number of throws
+ * 3.  The second command line argument specifies the number of threads
  *
  *---------------------------------------------------------------------------*/
 #include "util.h"
