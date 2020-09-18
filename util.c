@@ -1,5 +1,5 @@
 /**************************************************************************//**
-* @file
+* @file util.c
 *
 * @brief Source file for utility functions
 *
