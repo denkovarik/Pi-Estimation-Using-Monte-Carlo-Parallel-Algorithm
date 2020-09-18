@@ -11,7 +11,7 @@
 * @author Dennis Kovarik
 *
 * @par Description:
-* This function calculate the eclidean distance between a 2D point from the 
+* This function calculate the euclidean distance between a 2D point from the 
 * origin. 
 *
 * @param[in] x - Double of the x value for the point.
