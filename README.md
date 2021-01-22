@@ -29,7 +29,7 @@ make
 ## Testing
 * Compile the Test
 ```
-make Test
+make test
 ```
 
 * Run the Test
