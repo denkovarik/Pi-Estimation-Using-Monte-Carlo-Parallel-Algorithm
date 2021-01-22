@@ -11,27 +11,46 @@ This is a so called Monte Carlo process, as it uses randomness to solve a proble
 ## Setup
 
 ### Clone the Repo
-https: 
-* git clone https://gitlab.com/dennis.kovarik/pi-estimation-using-monte-carlo-parallel-algorithm.git
-ssh:
-* git clone git@gitlab.com:dennis.kovarik/pi-estimation-using-monte-carlo-parallel-algorithm.git
+* https: 
+```
+git clone https://gitlab.com/dennis.kovarik/pi-estimation-using-monte-carlo-parallel-algorithm.git
+```
+* ssh:
+```
+git clone git@gitlab.com:dennis.kovarik/pi-estimation-using-monte-carlo-parallel-algorithm.git
+```
 
 ### Compile the program
-Run the Following command in the terminal
-* make
+* Run the Following command in the terminal
+```
+make
+```
 
 ## Testing
-### Compile the Test
-* make Test
+* Compile the Test
+```
+make Test
+```
 
-### Run the Test
-* ./runTests
+* Run the Test
+```
+./runTests
+```
 
 ## Usage
 This program can be run with 0, 1, or 2 command line arguments passed into the program. The first command line argument specifies the number of simulated throws to use to estimate quarter pi using the Monte Carlo Algorithm. The second command line argument specifies the number of threads to run in parallel.
-* ./pi
-* ./pi `<number of throws>`
-* ./pi `<number of throws>` `<threads>`
+* Default usage running with 10000000 throws on 4 threads 
+```
+./pi
+``
+* Specify the numger of throws to estimate quarter pi on 4 threads
+```
+./pi <number of throws>
+```
+* Specify the number of threads and the number of throws to estimate quarter pi
+```
+./pi <number of throws> <threads>
+```
 
 ## Credits
 Dennis Kovarik
