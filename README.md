@@ -42,7 +42,7 @@ This program can be run with 0, 1, or 2 command line arguments passed into the p
 * Default usage running with 10000000 throws on 4 threads 
 ```
 ./pi
-``
+```
 * Specify the numger of throws to estimate quarter pi on 4 threads
 ```
 ./pi <number of throws>
