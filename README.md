@@ -43,7 +43,7 @@ This program can be run with 0, 1, or 2 command line arguments passed into the p
 ```
 ./pi
 ```
-* Specify the numger of throws to estimate quarter pi on 4 threads
+* Specify the number of throws to estimate quarter pi on 4 threads
 ```
 ./pi <number of throws>
 ```
